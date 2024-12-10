@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Golikova</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+  <div class="d-flex justify-content-between align-items-center">
+      <div class="logo">
+          <img src="https://masterpiecer-images.s3.yandex.net/5fd531dca6427c7:upscaled" alt="Логотип" class="img-fluid mx-3">
+      </div>
+      <div class="name text-right mx-3">
+          <p>Группа: <u>ЭФБО-01-23</u></p>
+          <p>Голикова Елизавета Алексеевна</p>
+      </div>
+  </div>
+  <nav class="navbar navbar-expand-md menu" style="margin-top: 10px;">
+      <div class="dropdown ms-3 d-md-none">
+          <button class="btn btn-secondary dropdown-toggle menu-2" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+              <li><a class="dropdown-item" href="main.html">Главная</a></li>
+              <li><a class="dropdown-item" href="first-sem.html">Первый семестр</a></li>
+              <li><a class="dropdown-item" href="#">Второй семестр</a></li>
+              <li><a class="dropdown-item" href="services.html">Услуги</a></li>
+              <li><a class="dropdown-item" href="#">Авторизация</a></li>
+          </ul>
+      </div>
+      <div class="container d-none d-md-flex justify-content-between align-items-center">
+          <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav mx-auto">
+                  <li class="nav-item"><a class="nav-link" href="main.html">Главная</a></li>
+                  <li class="nav-item"><a class="nav-link" href="first-sem.html">Первый семестр</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#">Второй семестр</a></li>
+                  <li class="nav-item"><a class="nav-link" href="services.html">Услуги</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#">Авторизация</a></li>
+              </ul>
+          </div>
+      </div>
+  </nav>
+</header>
+<div class="container-fluid">
+  <div class="row">
+    <nav class="navigation col-md-3">
+      <div class="container-fluid">
+        <ul class="nav flex-column">
+          <li class="nav-header" style="font-size: clamp(14px, 1.5vw, 21px); margin-top: 15px;">Навигация по странице</li>
+          <li class="nav-item"><a class="nav-link" href="#development">Разработка веб-приложений</a></li>
+          <li class="nav-item"><a class="nav-link" href="#accordion">HTML, CSS, BOOTSTRAP</a></li>
+          <li class="nav-item"><a class="nav-link" href="#photoContainer">Мой любимый преподаватель</a></li>
+        </ul>
+      </div>
+    </nav>
+    <main class="col-md-9">
+      <div class="container-fluid">
+        <h5 class="hello my-2" id="development">Разработка веб-приложений</h5>
+        <div class="row d-flex justify-content-around">
+          <div class="col-sm-4 mb-4 mt-2 d-flex justify-content-center">
+            <div class="card">
+              <img src="https://img.freepik.com/premium-photo/there-is-cat-that-is-smiling-standing-floor-generative-ai_958192-20454.jpg" class="card-img-top" alt="Сайт-визитка">
+              <div class="card-body text-center">
+                <h6 class="card-title">Сайт-визитка</h6>
+                <button class="btn btn-secondary openModalBtn">Заказать</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4 mb-4 mt-2 d-flex justify-content-center">
+            <div class="card">
+              <img src="https://static.life.ru/publications/2023/2/27/321795951644.9461.jpg" class="card-img-top" alt="Корпоративный сайт">
+              <div class="card-body text-center">
+                <h6 class="card-title">Корпоративный сайт</h6>
+                <button class="btn btn-secondary openModalBtn">Заказать</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4 mb-4 mt-2 d-flex justify-content-center">
+            <div class="card">
+              <img src="https://avatars.mds.yandex.net/i?id=e619bd10734d6398d5b773b3a2324657_sr-10848343-images-thumbs&n=13" class="card-img-top" alt="IOS-сайт">
+              <div class="card-body text-center">
+                <h6 class="card-title">IOS-сайт</h6>
+                <button class="btn btn-secondary openModalBtn">Заказать</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4 mb-4 mt-2 d-flex justify-content-center">
+            <div class="card">
+              <img src="https://cs13.pikabu.ru/post_img/2023/02/12/5/167618286212850785.jpg" class="card-img-top" alt="Интернет магазин">
+              <div class="card-body text-center">
+                <h6 class="card-title">Интернет магазин</h6>
+                <button class="btn btn-secondary openModalBtn">Заказать</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4 mb-4 mt-2 d-flex justify-content-center">
+            <div class="card">
+              <img src="https://forum.yesai.su/uploads/monthly_2024_08/large.file_799174.jpg.99b5d462123bc1766a9cb62b0e14f65b.jpg" class="card-img-top" alt="Личный сайт">
+              <div class="card-body text-center">
+                <h6 class="card-title">Личный сайт</h6>
+                <button class="btn btn-secondary openModalBtn">Заказать</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4 mb-4 mt-2 d-flex justify-content-center">
+            <div class="card">
+              <img src="https://opis-cdn.tinkoffjournal.ru/mercury/01-sad-ai-cats.jpg" class="card-img-top" alt="Android-сайт">
+              <div class="card-body text-center">
+                <h6 class="card-title">Android-сайт</h6>
+                <button class="btn btn-secondary openModalBtn">Заказать</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion" id="accordion">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                HTML
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                HTML (от англ. HyperText Markup Language — «язык гипертекстовой разметки») — стандартизированный язык гипертекстовой разметки документов для просмотра веб-страниц в браузере. Веб-браузеры получают HTML документ от сервера по протоколам HTTP/HTTPS или открывают с локального диска, далее интерпретируют код в интерфейс, который будет отображаться на экране монитора.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                CSS
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                CSS (англ. Cascading Style Sheets «каскадные таблицы стилей») — формальный язык декодирования и описания внешнего вида документа (веб-страницы), написанного с использованием языка разметки (чаще всего HTML или XHTML). Также может применяться к любым XML-документам, например, к SVG или XUL.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                BOOTSTRAP
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Bootstrap (также известен как Twitter Bootstrap) — популярный фреймворк для создания сайтов и веб-приложений с открытым исходным кодом. Включает в себя HTML- и CSS-шаблоны оформления для типографики, веб-форм, кнопок, меток, блоков навигации и прочих компонентов веб-интерфейса, включая JavaScript-расширения.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="photo" id="photoContainer">
+        <img id="mainImage" src="public/IMG_START.jpg" alt="Изображение">
+    </div>
+    </main>
+  </div>
+</div>
+
+<div id="my-modal" class="modal">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Разработка веб приложения</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form action="/submit" method="post" id="my-form">
+          <p>Заполните форму и мы обязательно свяжемся с вами в ближайшее время для уточнения деталей</p>
+          <div class="mb-3">
+            <label for="name" class="form-label">Как вас зовут:</label>
+            <input type="text" id="name" name="name" class="form-control" placeholder="Иванов Иван Иванович" required>
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Ваш e-mail:</label>
+            <input type="email" id="email" name="email" class="form-control" placeholder="example@example.com" required>
+          </div>
+          <div class="mb-3">
+            <label for="phone" class="form-label">Телефон:</label>
+            <input type="tel" id="phone" name="phone" class="form-control" placeholder="+7 (999) 999-99-99" required>
+          </div>
+          <div class="mb-3">
+            <label for="country" class="form-label">Страна:</label>
+            <select id="country" name="country" class="form-select">
+              <option value="russia">Россия</option>
+              <option value="usa">США</option>
+              <option value="uk">Великобритания</option>
+              <option value="germany">Германия</option>
+            </select>
+          </div>
+          <div class="mb-3">
+            <label for="date" class="form-label">Дата:</label>
+            <input type="date" id="date" name="date" class="form-control" required>
+          </div>
+          <div class="mb-3">
+            <label for="comment" class="form-label">Комментарий:</label>
+            <textarea id="comment" name="comment" class="form-control"></textarea>
+          </div>
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="consent" name="consent" required>
+            <label for="consent" class="form-check-label">Согласен на обработку моих персональных данных</label>
+          </div>
+          <button type="submit" class="btn btn-primary mt-3" id="button_form">Отправить заявку</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+<footer class="bg text-light py-3">
+    <div class="container-fluid d-flex justify-content-between align-items-center">
+        <p class="m-auto">© Голикова Елизавета Алексеевна, 2024</p>
+        <div class="tg-image">
+            <a href="https://t.me/l992008"><img src="public/tg.png" alt="tg" class="img-fluid"></a>
+        </div>
+    </div>
+</footer>
+
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="form.js"></script>
+<script src="favourite_prepod.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const developmentHeader = document.getElementById('development');
+
+    // Обработчик события click
+    developmentHeader.addEventListener('click', function() {
+        alert("Вы кликнули на заголовок - так держать!");
+    });
+});
+</script>
+</body>
+</html>

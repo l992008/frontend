@@ -1,0 +1,292 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito';
+    background-color: #cecece;
+}
+
+.hello {
+    font-size: clamp(22px, 4vw, 30px);
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.logo img {
+    margin: 5%;
+    width: clamp(40px, 7vw, 70px);
+    border-radius: 6px;
+}
+
+header {
+    background-color: rgb(39, 40, 97);
+    color: rgb(240, 227, 227);
+    top: 0;
+    left: 0;
+    right: 0;
+    position: sticky;
+    z-index: 500;
+    padding-bottom: 0;
+    padding-top: 10px;
+}
+
+.name p:nth-of-type(1)
+{
+    font-size: clamp(12px, 2vw, 17px);
+    margin-bottom: -3%;
+}
+
+.name p:nth-of-type(2)
+{
+    white-space: nowrap;
+    font-size: clamp(12px, 2vw, 17px);
+    margin-bottom: -3%;
+}
+
+.menu {
+    font-size: clamp(12px, 1.65vw, 19px);
+    background-color: rgb(240, 227, 227);
+    border-top: 2px solid rgb(39, 40, 97);
+    border-bottom: 2px solid rgb(39, 40, 97);
+}
+
+.menu a {
+    text-decoration: none;
+    margin-right: 2vw;
+    color: rgb(39, 40, 97);
+    transition: color 0.2s ease-in-out;
+}
+
+.menu a:hover {
+    color: #3366cc;
+}
+
+.menu a:active {
+    color: #3366cc;
+    transform: scale(1.2);
+}
+
+.navigation {
+    font-size: clamp(12px, 1.5vw, 17px);
+    border: 2px solid rgb(39, 40, 97);
+    background-color: rgb(240, 227, 227);
+}
+
+main {
+    border: 2px solid rgb(39, 40, 97);
+}
+
+main p {
+    font-size: clamp(12px, 2vw, 19px);
+}
+
+.concepts
+{
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    font-size: clamp(16px, 2.5vw, 24px);
+    font-weight: bolder;
+}
+
+.me img{
+    width: clamp(100px, 20vw, 200px);
+    border-radius: 10px;
+}
+
+video {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1vw;
+    border-radius: 15px;
+    width: clamp(330px, 60%, 600px);
+}
+
+footer {
+    border-top: 2px solid rgb(39, 40, 97);
+}
+
+footer p {
+    font-size: clamp(12px, 2vw, 17px);
+    margin: 0;
+}
+
+.tg-image img{
+    width: clamp(25px, 2.5vw, 60px);
+}
+
+.nav-link {
+    color: black;
+    transition: color 0.2s ease-in-out;
+}
+
+.nav-link:hover {
+    color: rgb(37, 39, 143);
+}
+
+.nav-link:active {
+    color: #0f53dd;
+}
+
+.menu-2 {
+    background-color: #464a93;
+}
+
+.menu-2:hover,
+.menu-2:focus,
+.menu-2:active,
+.menu-2:after{
+    background-color: #464a93;
+}
+
+iframe {
+    width: 100%;
+    height: 400px;
+    border: 1px solid gray;
+    margin-bottom: 1vw;
+    border-radius: 10px;
+}
+
+.form-check-input {
+    border: 1px solid gray;
+}
+
+.card {
+    max-width: 300px;
+    text-align: center;
+    white-space: collapse;
+    padding: 1vw;
+    border: 1px solid rgb(39, 40, 97);
+    border-radius: 10px;
+    transition: transform 0.2s ease-in-out;
+    background-color: rgb(240, 227, 227);
+}
+
+.card:hover {
+    transform: scale(1.05);
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-body h6 {
+    font-size: clamp(13px, 1.5vw, 17px);
+}
+
+.card-body button {
+    font-size: clamp(12px, 2vw, 17px);
+    border-radius: 5px;
+    background-color: rgb(39, 40, 97);;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.card-body button:hover {
+    background-color: rgb(0, 4, 255);
+}
+
+.card img{
+    border-radius: 10px;
+}
+
+.accordion{
+    margin-bottom:20px;
+}
+
+.modal {
+    font-size: clamp(14px, 2vw, 17px);
+    background-color: black;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+table {
+    font-size: clamp(11px, 2vw, 17px);
+    background-color: white;
+}
+
+.thead{
+    background-color: rgb(193, 177, 186) !important;
+    text-align: center;
+    vertical-align: middle; 
+}
+
+#practicesTable thead th {
+    background-color: rgb(240, 227, 227) !important;
+    text-align: center !important;
+    vertical-align: middle !important;
+}
+
+#lecturesTable thead th {
+    background-color: rgb(240, 227, 227) !important;
+    text-align: center !important;
+    vertical-align: middle !important;
+}
+
+footer{
+    background-color: rgb(39, 40, 97);
+}
+
+.hidden {
+    display: none;
+}
+
+#lections, #practices {
+    background-color: rgba(255, 255, 255, 0.295);
+    border: 2px solid rgb(39, 40, 97);
+    border-radius: 15px; 
+    padding: 10px 20px; 
+    margin: 15px; 
+    font-size: 18px; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+}
+
+#lections:hover, #practices:hover {
+    background-color: rgba(255, 255, 255, 0.541); /* Изменение фона при наведении */
+}
+
+#button_form{
+    background-color: rgb(39, 40, 97);;
+}
+
+#button_form:hover {
+    background-color: rgb(0, 4, 255);
+}
+
+#photoContainer {
+    width: 50%; /* Ширина контейнера */
+    margin: 0 auto; /* Центрирование контейнера */
+    margin-bottom: 15px;
+    overflow: hidden; /* Скрытие переполнения */
+}
+
+#photoContainer img {
+    width: 100%; /* Изображение занимает 100% ширины контейнера */
+    height: auto; /* Автоматическая высота для сохранения пропорций */
+    transition: transform 0.5s; /* Плавный переход для анимации */
+}
+
+div#carouseL{
+    margin: 15px auto;
+    width: clamp(300px, 50%, 600px);
+    height: auto;
+}
+
+.carousel-inner img{
+    width: 100%;
+    height: auto;
+    margin: 30px;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%); 
+}
+
+.carousel-control-prev {
+    left: 10px;
+}
+
+.carousel-control-next {
+    right: 10px; 
+}

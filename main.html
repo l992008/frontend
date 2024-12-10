@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Golikova</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+    <div class="d-flex justify-content-between align-items-center">
+        <div class="logo">
+            <img src="https://masterpiecer-images.s3.yandex.net/5fd531dca6427c7:upscaled" alt="Логотип" class="img-fluid mx-3">
+        </div>
+        <div class="name text-right mx-3">
+            <p>Группа: <u>ЭФБО-01-23</u></p>
+            <p>Голикова Елизавета Алексеевна</p>
+        </div>
+    </div>
+    <nav class="navbar navbar-expand-md menu" style="margin-top: 10px;">
+        <div class="dropdown ms-3 d-md-none">
+            <button class="btn btn-secondary dropdown-toggle menu-2" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                <li><a class="dropdown-item" href="main.html">Главная</a></li>
+                <li><a class="dropdown-item" href="first-sem.html">Первый семестр</a></li>
+                <li><a class="dropdown-item" href="#">Второй семестр</a></li>
+                <li><a class="dropdown-item" href="services.html">Услуги</a></li>
+                <li><a class="dropdown-item" href="#">Авторизация</a></li>
+            </ul>
+        </div>
+        <div class="container d-none d-md-flex justify-content-between align-items-center">
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item"><a class="nav-link" href="main.html">Главная</a></li>
+                    <li class="nav-item"><a class="nav-link" href="first-sem.html">Первый семестр</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Второй семестр</a></li>
+                    <li class="nav-item"><a class="nav-link" href="services.html">Услуги</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Авторизация</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+<div class="container-fluid">
+    <div class="row">
+        <nav class="navigation col-md-3">
+            <div class="container-fluid">
+                <ul class="nav flex-column">
+                    <li class="nav-header" style="font-size: clamp(14px, 1.5vw, 21px); margin-top: 15px;">Навигация по странице</li>
+                    <li class="nav-item"><a class="nav-link" href="#front">Фронтенд</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#back">Бэкенд</a></li>
+                </ul>
+            </div>
+        </nav>
+        <main class="col-md-9">
+            <div class="container-fluid">
+                <h5 class="hello my-2">Добро пожаловать на мой сайт</h5>
+                <div class="media justify-content-between d-flex align-items-center">
+                    <div class="media-body me-3">
+                        <p>Меня зовут Голикова Елизавета Алексеевна и я начинающий специалист по веб-разработке.</p>
+                    </div>
+                    <div class="me me-4">
+                        <img src="public/myphoto.jpg" alt="моё фото">
+                    </div>
+                </div>
+                <section id="front">
+                    <div class="concepts">Фронтенд</div>
+                    <p>Фронтенд (или клиентская часть) - это то, что видит пользователь.
+                        Он включает в себя все визуальные элементы веб-сайта или приложения: кнопки, формы,
+                        изображения и текст. Фронтенд разработчики используют языки разметки и стилизации,
+                        такие как html, css и javascript, чтобы создавать интерактивные и привлекательные интерфейсы.
+                        Основная задача фронтенда обеспечить удобство использования и эстетическую привлекательность.</p>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <video controls class="embed-responsive-item">
+                            <source src="public/cat1.mp4" type="video/mp4">
+                            Ваш браузер не поддерживает видео.
+                        </video>
+                    </div>
+                </section>
+                <section id="back">
+                    <div class="concepts">Бэкенд</div>
+                    <p>Бэкенд (или серверная часть) - это "за кулисами" веб-приложения.
+                        Он отвечает за обработку данных, управление пользователями и взаимодействие с базами данных.
+                        Бэкенд разработчики используют языки программирования, такие как python, ruby, java или php,
+                        а также фреймворки и базы данных для создания логики приложения.
+                        Основная задача бэкенда - обеспечить стабильную работу приложения и безопасность данных.</p>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <video controls class="embed-responsive-item">
+                            <source src="public/cat2.mp4" type="video/mp4">
+                            Ваш браузер не поддерживает видео.
+                        </video>
+                    </div>
+                </section>
+
+                <div id="carouseL" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active text-center">
+                            <img src="public/img1.png" class="d-block mx-auto" alt="Хорошего дня!">
+                        </div>
+                        <div class="carousel-item text-center">
+                            <img src="public/img2.png" class="d-block mx-auto" alt="Доброго утра!">
+                        </div>
+                        <div class="carousel-item text-center">
+                            <img src="public/img3.png" class="d-block mx-auto" alt="Чудесного вечера!">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouseL" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Предыдущий</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouseL" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Следующий</span>
+                    </button>
+                </div>
+            </div>
+        </main>
+    </div>
+</div>
+<footer class="bg text-light py-3">
+    <div class="container-fluid d-flex justify-content-between align-items-center">
+        <p class="m-auto">© Голикова Елизавета Алексеевна, 2024</p>
+        <div class="tg-image">
+            <a href="https://t.me/l992008"><img src="public/tg.png" alt="tg" class="img-fluid"></a>
+        </div>
+    </div>
+</footer>
+<script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
